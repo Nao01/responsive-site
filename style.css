@@ -1,3 +1,52 @@
+/*
+Error: Invalid CSS after "    solid": expected ";", was ":#000000"
+        on line 13 of style.scss
 
+8: 
+9: /* div
+10: ------------------------------------------------------------*\/
+11: .box {
+12:     border: 2px
+13:     solid:#000000
+14:     text-align: center; }
 
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+style.scss:13
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:786:in `block in try_declaration'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1183:in `rethrow'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:791:in `try_declaration'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:720:in `declaration_or_ruleset'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin.rb:109:in `method_missing'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.4.1/bin/sass:23:in `load'
+/usr/local/rvm/gems/ruby-2.4.1/bin/sass:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    solid\": expected \";\", was \":#000000\"\A         on line 13 of style.scss\A \A 8: \A 9: /* div\A 10: ------------------------------------------------------------*/\A 11: .box {\A 12:     border: 2px\A 13:     solid:#000000\A 14:     text-align: center; }"; }
