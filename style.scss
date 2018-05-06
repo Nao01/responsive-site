@@ -1,14 +1,5 @@
 @import "compass";
-// colors
-$baseColor: #f0f8ff;
-$subColor: #008b8b;
-$keyColor: #4169e1;
-$fontColor: #000000;
-
-
-/* div
-------------------------------------------------------------*/
-.box {
-    border: 2px;    
-    text-align: center; }
-    
+.main-photo{
+    max-height="100%";
+    width= auto;
+}
