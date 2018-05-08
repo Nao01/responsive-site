@@ -17,7 +17,7 @@ h1 {
 /* Photo
 ------------------------------------------------------------*/
 .main-photo {
-  img: ref("../Fuurin.jpg");
+  background-image: url("../Fuurin.jpg");
   height: 500px;
   width: 100%;
   size: cover;
@@ -31,13 +31,14 @@ h1 {
 /* Boxes
 ------------------------------------------------------------*/
 .container {
-  max-width: 100%; }
+  max-width: 100%;
+  display: flex;
+  flex-direction: row; }
   @media (max-width: 768px) {
     .container {
-      max-width: 100%; } }
+      flex-direction: column; } }
 
 .box {
-  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -46,17 +47,23 @@ h1 {
   border: solid 1px black; }
   @media (max-width: 768px) {
     .box {
-      max-width: 100%;
+      width: 90%;
       font-size: 60%;
-      margin: 0 10px; } }
+      box-sizing: border-box;
+      margin-left: auto;
+      margin-right: auto; } }
 
 #inquiry {
   border-radius: 10px;
   background-color: #00bfff;
   color: #ffffff;
-  width: 33.333%;
-  margin-right: 33.333%;
   margin-left: 33.333%;
-  float: left; }
+  margin-right: 33.333%;
+  float: flex; }
+  @media (max-width: 768px) {
+    #inquiry {
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto; } }
 
 /*# sourceMappingURL=style.css.map */
